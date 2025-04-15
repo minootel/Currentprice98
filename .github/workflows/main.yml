@@ -2,7 +2,7 @@ name: Run Price Bot Every Minute
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # هر 1 دقیقه اجرا بشه
+    - cron: '*/59 * * * *'  # هر 1 دقیقه اجرا بشه
   workflow_dispatch:       # اجازه اجرای دستی هم بده
 
 jobs:
